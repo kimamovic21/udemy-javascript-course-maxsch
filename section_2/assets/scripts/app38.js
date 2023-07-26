@@ -1,0 +1,19 @@
+// 38. Splitting Code into Functions
+
+const defaultResult = 0;
+let currentResult = defaultResult;
+
+function getUserNumberInput() {
+    return parseInt(userInput.value);
+};
+
+function addTwoNumbers() {
+    const enteredNumber = getUserNumberInput();
+    const calcDescription = `${currentResult} + ${enteredNumber}`;
+    currentResult = currentResult + enteredNumber;
+    outputResult(currentResult, calcDescription);
+};
+
+addBtn.addEventListener('click', addTwoNumbers);
+
+console.log(currentResult);

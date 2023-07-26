@@ -94,3 +94,114 @@ Assignment 1
 
 
 28. Code Styles, Conventions & Syntax
+
+
+29. Returning value
+-dodovanje return kljucne rijeci u funkciju
+-u varijablu currentResult pohranimo rezultat dobiven iz funkcije
+
+
+30. The (Un)Importance of Code Order
+-deklarisanje varijabli prije njihove upotrebe
+-pozivanje funkcija prije njihovog deklarisanje
+-konzistentno pisanje koda
+-pisanje funkcija na pocetku
+
+
+31. An Introduction to Global & Local Scope
+-varijable koje se definisane unutar na pocetku fajla
+-varijable koje su definisanje unutar opsega funkcije
+
+
+32. "Shadowed Variables"
+
+
+33. More about the "return" statement
+-kljucna rijec return zavrsava izvrsavanje funkcije
+-ne mozemo dodati novi kod ispod kljucne rijeci return
+-nema smisla dodavati vise od jedne kljucne rijeci return 
+
+
+34. Executing Functions "Indirectly"
+-kreiramo addBtn varijablu i varijabli dodajemo addEventListener funkciju koja ima dva argumenta
+-prvi argument je string, dogadaj koji zelimo da slusamo
+-drugi argument je funkcija
+-u funciju addTwoNumber pisemo currentResult = currentResult + userInput.value
+-u funkciju addTwoNumber dodajemo outputResult funkciju
+
+
+35. "Indirect" vs "Direct" Function Execution - Summary
+-someButton.addEventListener('click', add) - funkcija ce se izvrsiti samo kada kliknemo
+-someButton.addEventListener('click', add()) - funkcija ce se izvrsiti cim se skripta ucita
+
+
+Assignment 2
+-kreiramo greet funkciju
+-kreiramo greetUser funkciju sa parametrom userName
+-u obadvije funkcije dodajemo alert built-in funkcije
+-pozivamo obadvije funkcije
+-varijabli task3Element dodajemo addEventListener
+-prvi parametar je click dogadaj, a drugi parametar je funkcija
+-kreiramo funkciju combine3Strings sa tri parametra
+-unutar funkcije combine3Strings kreiramo combinedText varijablu
+-kreiramo combinedString varijablu
+
+
+36. Converting Data Types
+-vrijednost koju unesemo u input polje je string
+-konvertovanje stringa u broj
+-u funkciju addTwoNumbers dodajemo parseInt(userInput.value)
+-mozemo i samo dodati plus ispred varijable userInput.value
+
+
+37. Splitting Code into Functions
+
+
+38. Splitting Code into Functions
+-u funkciji  addTwoNumbers kreiramo calcDescription varijablu
+-u funkiciu outputResult dodajemo varijablu calcDescription kao drugi argument
+-kreiramo varijablu const enteredNumber
+-kreiramo funkciju getUserNumberInput
+
+
+39. Connecting all Buttons to Functions
+-kreiramo funkcije za oduzimanje, mnozenje i dijeljenje
+-kreiramo funkciju createAndWriteOutput sa tri parametra
+-u funkciji createAndWriteOutput kreiramo calcDescription varijablu
+-u funkciji addTwoNumbers kreiramo varijablu const initialResult
+-u funkciju addTwoNumbers dodajemo createAndWriteOutput funkciju 
+-funkciju createAndWriteOutput pozivamo u ostalim funkcijama, samo promjenimo prvi argument
+-varijablama subtractBtn, multiplyBtn i divideBtn dodajemo addEventListener
+
+
+40. Working with Code Comments
+-dodavanje komentara sa // ili /* */
+-komentar se nece izvrstiti kao kod u aplikaciji
+-komentari trebaju biti kratki i deskriptivni
+
+
+41. More Operators!
+-u funkciju addTwoNumbers dodajemo currentResult += enteredNumber
+-u ostale funkcije dodajemo -=, *=, /=
+-currentResult++ je isto sto i currentResult = currentResult + 1
+
+
+42. More Core Data Types
+-tipovi podataka - Numbers, Strings(Text), Booleans, Objects, Arrays
+-objekti omogucavaju da grupisemo podatke
+-niz je lista podataka
+
+
+43. Using Arrays
+-kreiramo varijablu niz logEntries
+-u funkciju addTwoNumbers dodajemo logEntries niz sa metodom push
+-u push() metodu dodajemo enteredNumber varijablu
+-varijablu logEntries ispisujemo u konzolu
+
+
+44. Creating Objects
+-u funkciji addTwoNumbers kreiramo varijablu objekt const logEntry
+-u objekt logEntry dodajemo key - value par vrijednosti
+-dodajemo logEntries.push(logEntry)
+-
+

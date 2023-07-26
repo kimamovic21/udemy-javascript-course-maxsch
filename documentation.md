@@ -33,3 +33,19 @@ Assignment 1
 26. Introducing Functions
 27. Adding A Custom Function
 28. Code Styles, Conventions & Syntax
+29. Returning Value
+30. The (Un)Importance of Code Order
+31. An Introduction to Global & Local Scope
+32. "Shadowed Variables"
+33. More about the "return" statement
+34. Executing Functions "Indirectly"
+35. "Indirect" vs "Direct" Function Execution - Summary
+36. Converting Data Types
+37. Mixing Numbers & Strings
+38. Splitting Code into Functions
+39. Connecting all Buttons to Functions
+40. Working with Code Comments
+41. More Operators!
+42. More Core Data Types
+43. Using Arrays
+44. Creating Objects

@@ -1,13 +1,13 @@
 // 27. Adding A Custom Function
 
-function addTwoNumber(number1, number2) {
+function addTwoNumbers(number1, number2) {
     const result = number1 + number2;
     alert('The result is: ' + result);
     console.log(result);
 };
-addTwoNumber(1, 2);
-addTwoNumber(3, 4);
-addTwoNumber(5, 6);
+addTwoNumbers(1, 2);
+addTwoNumbers(3, 4);
+addTwoNumbers(5, 6);
 
 
 const defaultResult = 1;
