@@ -90,4 +90,13 @@ Section 4: Working with Control Structures (if Statements, Loops, Error Handling
 76. Using "if" Statement
 77. Working with "if", "else" and "else-if" Statement
 78. Beware When Comparing Objects & Arrays for Equality!
-
+79. The Logical AND and OR Operators
+80. Understanding Operator Precedence
+81. Beyond true/false: "Truthy" and "Falsy" Values
+82. Coercion vs Converison
+83. Setting Up a Bigger Example Project(The "Monster Killer")
+84. Adding an "Attack Function"
+85. Using "if" Statements for Checking the Win-Condition
+86. Adding More "if" Statements & A "Strong Attack" Functionality
+87. Time for a "Heal Player" Functionality!
+88. Controlling the Conditional Bonus Life(Without Boolean Operators!)
