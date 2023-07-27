@@ -19,7 +19,7 @@ function addTwoNumbers() {
     createAndWriteOutput('+', initialResult, enteredNumber);
 };
 
-function substractTwoNumbers() {
+function subtractTwoNumbers() {
     const enteredNumber = getUserNumberInput();
     const initialResult = currentResult;
     currentResult = currentResult - enteredNumber;
@@ -41,7 +41,7 @@ function divideTwoNumbers() {
 };
 
 addBtn.addEventListener('click', addTwoNumbers);
-subtractBtn.addEventListener('click', substractTwoNumbers);
+subtractBtn.addEventListener('click', subtractTwoNumbers);
 multiplyBtn.addEventListener('click', multiplyTwoNumbers);
 divideBtn.addEventListener('click', divideTwoNumbers);
 

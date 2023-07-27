@@ -29,7 +29,7 @@ Section 2: Variables, Data Types, Operators & Functions
 23. Data Types: Numbers & Strings (Text)
 24. Using Constants
 25. More on Strings
-Assignment 1
+Assignment 1: Time to Practice: ...
 26. Introducing Functions
 27. Adding A Custom Function
 28. Code Styles, Conventions & Syntax
@@ -40,6 +40,7 @@ Assignment 1
 33. More about the "return" statement
 34. Executing Functions "Indirectly"
 35. "Indirect" vs "Direct" Function Execution - Summary
+Assignment 2: Time to Practice: Functions
 36. Converting Data Types
 37. Mixing Numbers & Strings
 38. Splitting Code into Functions
@@ -49,3 +50,44 @@ Assignment 1
 42. More Core Data Types
 43. Using Arrays
 44. Creating Objects
+45. Objects - Common Syntax Gotchas
+46. Accessing Object Data
+47. Adding a Re-Usable Function That Uses Objects
+48. undefined, null & NaN
+49. The "typeof" Operator
+50. Importing Scripts Correctly with "defer" & "async"
+51. Importing Javascript - Summary
+52. Wrap Up
+53. Useful Resources & Links
+
+
+Section 3: Efficient Development & Debugging
+54. Module Introduction
+55. Efficient Development & Debugging - An Overview
+56. Configuring the IDE Look & Feel 
+57. Using Shortcuts
+58. Working with Auto-Completion & IDE Hints
+59. Installing IDE Extensions
+60. Tweaking Editor Settings
+61. Utilizing Different IDE Views
+62. Finding Help & Working with MDN 
+63. The ECMAScript Standard
+64. How to "google" Correctly
+65. Debugging Javascript - An Overview
+66. An Error Message! No Reason To Panic!
+67. Using console.log() to look "into the Code"
+68. Next-Level Debugging with the Chrome Devtools & Breakpoints
+69. Testing Code Changes Directly in the Devtools
+70. Debugging Code directly Inside VS Code
+71. Wrap Up
+72. Useful Resources & Links
+
+
+Section 4: Working with Control Structures (if Statements, Loops, Error Handling)
+73. Module Introduction
+74. Introducing "if" Statements & Boolean (Comparison) Operators
+75. Using Booleans in Conditions & More on Text Comparisons
+76. Using "if" Statement
+77. Working with "if", "else" and "else-if" Statement
+78. Beware When Comparing Objects & Arrays for Equality!
+

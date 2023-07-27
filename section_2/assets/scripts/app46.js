@@ -1,9 +1,8 @@
-// 40. Working with Code Comments
-
-// This is a comment
+// 46. Accessing Object Data
 
 const defaultResult = 0;
 let currentResult = defaultResult;
+let logEntries = [];
 
 // Gets input from input field
 function getUserNumberInput() { 
@@ -19,28 +18,37 @@ function createAndWriteOutput(operator, resultBeforeCalc, calcNumber) {
 function addTwoNumbers() {
     const enteredNumber = getUserNumberInput();
     const initialResult = currentResult;
-    currentResult = currentResult + enteredNumber;
+    currentResult += enteredNumber;
     createAndWriteOutput('+', initialResult, enteredNumber);
+    const logEntry = {
+        operation: 'ADD',
+        prevResult: initialResult,
+        number: enteredNumber,
+        result: currentResult
+    };
+    logEntries.push(logEntry);
+    console.log(logEntry.operation);
+    console.log(logEntries);
 };
 
 function subtractTwoNumbers() {
     const enteredNumber = getUserNumberInput();
     const initialResult = currentResult;
-    currentResult = currentResult - enteredNumber;
+    currentResult -= enteredNumber;
     createAndWriteOutput('-', initialResult, enteredNumber);
 };
 
 function multiplyTwoNumbers() {
     const enteredNumber = getUserNumberInput();
     const initialResult = currentResult;
-    currentResult = currentResult * enteredNumber;
+    currentResult *= enteredNumber;
     createAndWriteOutput('*', initialResult, enteredNumber);
 };
 
 function divideTwoNumbers() {
     const enteredNumber = getUserNumberInput();
     const initialResult = currentResult;
-    currentResult = currentResult / enteredNumber;
+    currentResult /= enteredNumber;
     createAndWriteOutput('/', initialResult, enteredNumber);
 };
 

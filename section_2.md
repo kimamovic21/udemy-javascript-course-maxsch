@@ -29,7 +29,7 @@ Section 2: Variables, Data Types, Operators & Functions
 -vise nacina imenovanje varijabli
 -koristenje imena varijabli kao stringovi, sa $ znakom i _ znakom
 -izbjegavati - i  _ izmedu dva imena varijabli
--ne mozemo imenovati varijablu sa slovom kao pocetnim imenom
+-ne mozemo imenovati varijablu sa brojem kao pocetnim imenom
 -ne mozemo imenovati varijablu sa rezervisanim imenom
 -u app.js fajlu kreiramo currentResult varijablu
 -dodavanje tacke i zareza na kraju linije koda
@@ -68,7 +68,7 @@ Assignment 1
 -kreiramo let userInput varijablu
 -kreiramo let result varijablu bez inicijalizacije
 -varijalbi myResult dodajemo 18 i myUserInput
--varijabl myResult oduzimama, mnozimo i dijelimo sa odredenim brojem
+-varijablu myResult oduzimamo, mnozimo i dijelimo sa odredenim brojem
 -vrijednost varijable myResult ispisujemo u konzolu
 
 
@@ -78,7 +78,7 @@ Assignment 1
 -dodavanje tijela funkciji
 -pozivanje funkcije sa argumentima
 -koristenje iste funkcije na vise mjesta sa razlicitim parametrima
--funkciju pozivama kada nama odgovara
+-funkciju pozivamo kada nama odgovara
 -funkcija se nece izvrsiti dok se ne pozove
 
 
@@ -159,7 +159,7 @@ Assignment 2
 
 38. Splitting Code into Functions
 -u funkciji  addTwoNumbers kreiramo calcDescription varijablu
--u funkiciu outputResult dodajemo varijablu calcDescription kao drugi argument
+-u funkciju outputResult dodajemo varijablu calcDescription kao drugi argument
 -kreiramo varijablu const enteredNumber
 -kreiramo funkciju getUserNumberInput
 
@@ -203,5 +203,38 @@ Assignment 2
 -u funkciji addTwoNumbers kreiramo varijablu objekt const logEntry
 -u objekt logEntry dodajemo key - value par vrijednosti
 -dodajemo logEntries.push(logEntry)
--
 
+
+45. Objects - Common Syntax Gotchas
+
+
+46. Accessing Object Data
+-pristupanje podataka u objektu sa tacka notacijom
+
+
+47. Adding a Re-Usable Function That Uses Objects
+-kreiramo writeToLog funkciju sa cetiri parametra
+-u funkciji writeToLog kreiramo logEntry objekt
+-funkciju writeToLog dodajemo u addTwoNumbers, subtractTwoNumbers, multiplyTwoNumbers i divideTwoNumbers funkcije
+
+
+48. Undefined, null & NaN
+
+
+49. The "typeof" Operator
+-typeof - odreduje tip varijable
+
+
+50. Importing Scripts Correctly with "defer" & "async"
+-Async vs Defer: https://bitsofco.de/async-vs-defer/
+-dodavanje async i defer atributa script elementu u html fajlu
+-ne mozemo kombinovati kod unutar jednog script elementa i js fajla koji je importovan kroz src atribut
+
+
+51. Importing Javascript - Summary
+
+
+52. Wrap Up
+
+
+53. Useful Resources & Links
