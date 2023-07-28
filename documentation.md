@@ -100,3 +100,11 @@ Section 4: Working with Control Structures (if Statements, Loops, Error Handling
 86. Adding More "if" Statements & A "Strong Attack" Functionality
 87. Time for a "Heal Player" Functionality!
 88. Controlling the Conditional Bonus Life(Without Boolean Operators!)
+89. Adding a "Reset Game" Functionality
+90. Validating User Input
+91. Utilizing Global Constants as Identifiers in Conditional Code
+92. Adding a Conditional Battle Log
+93. Introducing the Ternary Operator
+94. A Bit of Theory: Statements vs Expressions
+95. Logical Operator "Tricks" & Shorthands
+96. Logical Operators & How They Work

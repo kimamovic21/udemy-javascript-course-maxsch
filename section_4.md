@@ -113,4 +113,55 @@ Section 4: Working with Control Structures (if Statements, Loops, Error Handling
 -u uslov if dodajemo removeBonusLife() funkciju
 -u funkciji endRound() kreiramo varijablu const initialPlayerHealth
 -u prvi uslov if dodajemo currentPlayerHealth = initialPlayerHealth
--dodajemo setPlayerHealth(initialPlayerHealth)
+-dodajemo funkciju setPlayerHealth(initialPlayerHealth)
+
+
+89. Adding a "Reset Game" Functionality
+-kreiramo reset() funkciju
+-u reset() funkciju dodajemo varijable currentMonsterHealth i currentPlayerHealth
+-u funkciju reset() dodajemo funkciju resetGame(chosenKerimLife)
+-dodajemo uslov if (currentMonsterHealth <= 0 || currentPlayerHealth <= 0)
+-u uslov if dodajemo funkciju reset()
+
+
+90. Validating User Input
+-kreiramo varijablu const enteredValue
+-varijabli let chosenKerimLife dodajemo vrijednost parseInt(enteredValue)
+-dodajemo uslov if (isNaN(chosenKerimLife) || chosenKerimLife <= 0)
+
+
+91. Utilizing Global Constants as Identifiers in Conditional Code
+-kreiramo varijable const MODE_ATTACK i const MODE_STRONG_ATTACK
+-manje izmjene u if uslovu i argumentima funkcija
+
+
+92. Adding a Conditional Battle Log
+-kreiramo varijablu let battleLog = []
+-kreiramo funkciju writeToLog()
+-kreiramo vise const log event varijabli
+-u funkciju writeToLog() dodajemo uslov if
+-u funkciji writeToLog() kreiramo varijablu let logEntry
+-u uslov if inicijaliziramo varijablu objekt logEntry
+-dodajemo battleLog.push(logEntry)
+-dodajemo vise else if uslova
+-varijabli logBtn dodajemo addEventListener 
+-kreiramo funkciju printLogHandler()
+-prvi argument je dogadaj click, a drugi argument je funkcija printLogHandler() funkcija
+-u funkciji endRound() dodajemo funkciju writeToLog() sa argumentima
+-u funkciji attackMonster() kreiramo varijable logEvent i maxDamage
+-u funkciju attackMonster() dodajemo funkciju writeToLog()
+-u funkciju healPlayerHandler() dodajemo funkciju writeToLog()
+
+
+93. Introducing the Ternary Operator
+-u funkciji attackMonster() kreiramo varijablu const maxDamage
+-vrijednost varijable const maxDamage je rezultat uslova ternarnog operator
+
+
+94. A Bit of Theory: Statements vs Expressions
+
+
+95. Logical Operator "Tricks" & Shorthands
+
+
+96. Logical Operators & How They Work
