@@ -108,3 +108,8 @@ Section 4: Working with Control Structures (if Statements, Loops, Error Handling
 94. A Bit of Theory: Statements vs Expressions
 95. Logical Operator "Tricks" & Shorthands
 96. Logical Operators & How They Work
+97. Working with the "switch-case" Statement
+98. Introducing Loops
+99. The "for" Loop
+100. The "for-of" Lopp
+101. The "for-in" Loop

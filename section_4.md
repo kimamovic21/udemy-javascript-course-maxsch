@@ -165,3 +165,30 @@ Section 4: Working with Control Structures (if Statements, Loops, Error Handling
 
 
 96. Logical Operators & How They Work
+
+
+97. Working with the "switch-case" Statement
+-dodajemo uslov switch(ev)
+-u uslov switch dodajemo case LOG_EVENT_PLAYER_ATTACK
+-dodajemo logEntry.target = 'MONSTER'
+-dodajemo break nakon case
+-dodajemo vise case slucajeva
+-na kraju uslov switch dodajemo default slucaj
+
+
+98. Introducing Loops
+-kreiranje vise vrsta petlji
+
+
+99. The "for" Loop
+-u funkciji printLogHandler kreiramo petlju for
+-u petlju for dodajemo uslov
+
+
+100. The "for-of" Lopp
+-u funkciji printLogHandler(), u for petlju dodajemo battleLog.length
+-kreiramo petlju for-of
+
+
+101. The "for-in" Loop
+-kreiramo for-in petlju
