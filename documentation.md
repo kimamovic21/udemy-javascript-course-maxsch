@@ -113,3 +113,13 @@ Section 4: Working with Control Structures (if Statements, Loops, Error Handling
 99. The "for" Loop
 100. The "for-of" Lopp
 101. The "for-in" Loop
+102. The "while" & "do-while" Loops
+Assignment 3: Time to Practice: Control Structures
+103. Controlling Loops with "break"
+104. Controlling Iterations with "continue"
+105. More Control with Labeled Statements
+106. Error Handling with "try-catch" - An Introduction
+107. Throwing Custom Errors
+108. Working with "try-catch" to Catch & Handle Errors
+109. Wrap Up
+110. Useful Resources & Links

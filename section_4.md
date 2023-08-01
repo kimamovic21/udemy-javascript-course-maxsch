@@ -192,3 +192,57 @@ Section 4: Working with Control Structures (if Statements, Loops, Error Handling
 
 101. The "for-in" Loop
 -kreiramo for-in petlju
+
+
+102. The "while" & "do-while" Loops
+-kreiramo petlju while
+-kreiramo petlju do-while
+
+
+Assignment 3: Time to Practice: Control Structures
+-dodajemo uslov if (randomNumber > 0.7)
+-dodajemo for petlju
+-dodajemo while petlju
+-nizu numbers dodajemo forEach() metodu
+-dodajemo uslov if (randomNumber1 > 0.7 && randomNumber2 > 0.7)
+-dodajemo uslov else if (randomNumber1 <= 0.2 || randomNumber2 <= 0.2)
+
+
+103. Controlling Loops with "break"
+-kreiramo varijablu let lastLoggedEntry
+-u funkciji printLogHandler() dodajemo uslov if 
+-dodavanje kljucne rijeci break
+
+
+104. Controlling Iterations with "continue"
+-koristenje kljucne rijeci continue
+
+
+105. More Control with Labeled Statements
+-u printLogHandler() funkciji, petljama dodajemo ime
+-petlji do dodajemo ime outerWhile
+-petlji for dodajemo ime innerFor
+
+
+106. Error Handling with "try-catch" - An Introduction
+
+
+107. Throwing Custom Errors
+-kreiramo funkciju getKerimLifeValues() 
+-u funkciji getKerimLifeValues() kreiramo varijable enteredValue i parsedValue
+-u uslov if dodajemo kljucnu rijec throw 
+-dodajemo objekt poruku greske koja se eventualno desila
+
+
+108. Working with "try-catch" to Catch & Handle Errors
+-kreiramo blok koda try
+-u blok koda try dodajemo inicijaliziramo varijablu chosenKerimLife
+-kreiramo blok koda catch
+-u blok kod catch dodajemo funkciju alert
+-mozemo dodati blok koda finally
+
+
+109. Wrap Up
+
+
+110. Useful Resources & Links
