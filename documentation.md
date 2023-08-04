@@ -123,3 +123,17 @@ Assignment 3: Time to Practice: Control Structures
 108. Working with "try-catch" to Catch & Handle Errors
 109. Wrap Up
 110. Useful Resources & Links
+
+
+Section 5: Behind the Scenes
+111. Module Introduction
+112. ES5 vs ES6+ ("Next Gen JS") - Evolution of Javascript
+113. var vs let & const - Introducing "Block Scope"
+114. Understanding "Hoisting"
+115. Strict Mode & Writing Good Code
+116. How Code is Parsed & Compiled
+117. Inside the JavaScript Engine - How the Code Executes
+118. [DEEP DIVE] JavaScript Language vs Browser APIs
+119. Primitive vs Reference Values
+120. Garbage Collection & Memory Management
+121. Wrap Up
