@@ -137,3 +137,30 @@ Section 5: Behind the Scenes
 119. Primitive vs Reference Values
 120. Garbage Collection & Memory Management
 121. Wrap Up
+122. Useful Resources & Links
+
+
+Section 6: More on Functions
+123. ModuleIntroduction
+124. Recapping Functions Knowledge - What We Know Thus Far
+125. Parameters vs Argumets
+126. Functions vs Methods
+127. Functions are Objects!
+128. Functions Expressions: Storing Functions in Variables
+129. Function Expressions vs Function Declaration
+130. Anonymous Functions
+131. Working on the Project: Adding User Choices to the Game
+132. Implementing the Core Game Logic
+133. Introducing Arrow Functions
+134. Different Arrow Function Syntaxes
+135. Outputting Messages to the User
+136. Default Arguments in Functions
+137. Introducing Rest Parameters ("Rest Operator")
+138. Creating Functions Inside of Functions
+139. Understanding Callback Functions
+Assignment 4: Time to Practice: Functions
+140. Working with "bind()"
+141. Adding bind() to Calculator Project
+142. call() and apply()
+143. Wrap Up
+144. Useful Resources & Links
