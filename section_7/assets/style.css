@@ -1,0 +1,18 @@
+body {
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+}
+
+/* 160. */
+.red-bg {
+    background-color: red;
+    color: white;
+}
+
+.visible {
+    display: block;
+}
+
+.invisible {
+    display: none;
+}

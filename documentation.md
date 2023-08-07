@@ -164,3 +164,26 @@ Assignment 4: Time to Practice: Functions
 142. call() and apply()
 143. Wrap Up
 144. Useful Resources & Links
+
+
+Section 7: Working with the DOM
+145. Module Introduction
+146. What's the "DOM"?
+147. Document and Window Object
+148. Understanding the DOM and how it's created
+149. Nodes & Elements - Querying the DOM Overview
+150. Selecting Elements in the DOM
+151. Summary: Node Query Methods
+152. Exploring and Changing DOM Properties
+153. Attributes vs Properties
+154. Selecting Multiple Elements & Summary
+Assignment 5
+155. Traversing the DOM
+156. Traversing Child Nodes
+157. Using parentNode & parentElement
+158. Selecting Sibling Elements
+159. DOM Traversal vs Query Methods
+160. Styling DOM Elements
+161. Creating & Inserting Elements
+162. Adding Elements via HTML in Code
+163. Adding Elements via createElement()
