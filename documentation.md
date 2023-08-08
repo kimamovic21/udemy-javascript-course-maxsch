@@ -187,3 +187,18 @@ Assignment 5
 161. Creating & Inserting Elements
 162. Adding Elements via HTML in Code
 163. Adding Elements via createElement()
+164. Inserting DOM Elements
+165. Cloning DOM Nodes
+166. Live Node Lists vs Static Node Lists
+167. Removing Elements
+168. Insertion & Removal Method Summary
+169. Summary: Insert, Replace, Remove
+170. Setting Up the Practice Project
+171. Selecting the Modal and "Add" Button
+172. Opening a Modal by Changing CSS Classes
+173. Controlling the Backdrop
+174. Fetching and Validating User Input
+175. Creating a Movie in Javascript & Clearing the Input
+176. Rendering Movie Items on the Screen
+177. Deleting Movie Elements
+178. Showing & Hiding the "Are you sure?" Dialog

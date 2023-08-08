@@ -80,3 +80,113 @@ Assignment 5
 163. Adding Elements via createElement()
 -objektu document dodajemo metodu createElement()
 -varijabli dodajemo metodu createElement()
+
+
+164. Inserting DOM Elements
+-varijablama dodajemo metode .append() i prepend()
+-varijablama dodajemo metodu .insertAdjacentElement()
+
+
+165. Cloning DOM Nodes
+-varijablama dodajemo metodu .cloneNode()
+
+
+166. Live Node Lists vs Static Node Lists
+-NodeList i HTMLCollection
+
+
+167. Removing Elements
+-varijablama dodajemo metodu .remove()
+
+
+168. Insertion & Removal Method Summary
+
+
+169. Summary: Insert, Replace, Remove
+
+
+170. Setting Up the Practice Project
+
+
+171. Selecting the Modal and "Add" Button
+-kreiramo varijablu const addMovieModal
+-kreiramo varijablu const startAddMovieButton
+
+
+172. Opening a Modal by Changing CSS Classes
+-kreiramo funkciju toggleMovieModal()
+-u funkciju toggleMovieModal() dodajemo varijablu addMovieModal 
+-varijabli addMovieModal dodajemo metode classListi i toggle()
+
+
+173. Controlling the Backdrop
+-kreiramo varijablu const backdrop
+-kreiramo funkciju toggleBackdrop()
+-varijabli startAddMovieButton dodajemo addEventListener()
+-u funkciju toggleMovieModal() dodajemo funkciju toggleBackdrop()
+-kreiramo funkciju backdropClickHandler()
+-u funkciju backdropClickHandler() dodajemo funkciju toggleMovieModal()
+-varijabli backdrop dodajemo addEventListener()
+-kreiramo varijablu const cancelAddMovieButton
+-kreiramo funkciju cancelAddMovie()
+-u funkciju cancelAddMovie() dodajemo funkciju toggleMovieModal()
+-varijabli cancelAddMovieButton dodajemo addEventListener
+
+
+174. Fetching and Validating User Input
+-kreiramo varijablu const confirmAddMovieButton
+-kreiramo funkciju addMovieHandler() 
+-varijabli confirmAddMovieButton dodajemo addEventListener
+-kreiramo varijablu const userInputs
+-u funkciji addMovieHandler() kreiramo varijable
+-dodajemo uslov if
+-dodajemo funkciju alert()
+
+
+175. Creating a Movie in Javascript & Clearing the Input
+-kreiramo varijablu const movies
+-u funkciji addMovieHandler() kreiramo varijablu const newMovie
+-dodajemo movies.push(newMovie)
+-dodajemo funkciju toggleMovieModal()
+-kreiramo funkciju clearMovieInput()
+-u funkciju cancelAddMovieHandler() dodajemo funkciju clearMovieInput()
+-u funkciju addMovieHandler() dodajemo funkciju clearMovieInput()
+
+
+176. Rendering Movie Items on the Screen
+-kreiramo funkciju updateUI()
+-kreiramo varijablu const entryTextSection
+-u funkciju updateUI dodajemo uslov if - else za prikazivanje elementa
+-u funkciju addMovieHandler() dodajemo funkciju updateUI()
+-kreiramo funkciju renderNewMovieElement() sa tri parametra
+-u funkciji renderNewMovieElement() kreiramo varijablu const newMovieElement
+-varijabli newMovieElement dodajemo metodu className
+-varijabli newMovieElement dodajemo metodu innerHTML
+-unutar metode innerHTML pisemo HTML kod
+-u funkciji renderNewMovieElement() kreiramo varijablu const listRoot
+-varijabli listRoot dodajemo metodu .append()
+-u funkciji addMovieHandler dodajemo funkciju renderNewMovieElement()
+
+
+177. Deleting Movie Elements
+-u funkciji renderNewMovieElement(), varijabli newMovieElement dodajemo addEventListener
+-kreiramo funkciju deleteMovieHandler()
+-objekt varijabli const newMovie dodajemo id
+-u funkciju deleteMovieHandler() dodajemo petlju for
+-kreiramo varijalbu let movieIndex
+-u petlji for dodajemo uslov if
+-inkrementiramo varijablu movieIndex
+-varijabli movies dodajemo splice() metodu
+-kreiramo varijablu const listRoor
+
+
+
+178. Showing & Hiding the "Are you sure?" Dialog
+-kreiramo funkciju deleteMovie()
+-u funkciji deleteMovieHandler() kreiramo varijablu const deleteMovieModal
+-varijabli deleteMovieModal dodajemo metode classList i add
+-dodajemo funkciju toggleBackdrop()
+-kreiramo funkcije closeMovieModal() i showMovieModal()
+-kreiramo funkciju cancelMovieDeletionModal()
+-u funkciju backdropClickHandler() dodajemo cancelMovieDeletionModal()
+-u funkciju addMovieHandler() dodajemo funkciju toggleBackdrop()
