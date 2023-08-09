@@ -189,4 +189,23 @@ Assignment 5
 -kreiramo funkcije closeMovieModal() i showMovieModal()
 -kreiramo funkciju cancelMovieDeletionModal()
 -u funkciju backdropClickHandler() dodajemo cancelMovieDeletionModal()
--u funkciju addMovieHandler() dodajemo funkciju toggleBackdrop()
+
+179. Starting with the Confirmation Logic
+-u funkciji deleteMovieHandler() kreiramo varijable cancelDeletionButton i confirmDeletionButton
+-varijabli cancelDeletionButton dodajemo addEventListener
+-varijabli confirmDeletionButton dodajemo addEventListener
+
+
+180. Finishig the App
+-u funkciju backdropClickHandler() dodajemo funkciju clearMovieInput()
+-u funkciju cancelAddMovieHandler() dodajemo funkciju toggleBackdrop()
+-u funkciju deleteMovieHandler() dodajemo funkciju closeMovieDeletionModal()
+-u funkciji startDeleteMovieHandler(), varijabli confirmDeletionButton dodajemo metodu replaceWith()
+-unutar metode replaceWith dodajemo metodu cloneNode()
+-u funkciji deleteMovieHandler() dodajemo funkciju updateUI()
+
+
+181. Wrap Up
+
+
+182. Useful Resources & Links

@@ -202,3 +202,7 @@ Assignment 5
 176. Rendering Movie Items on the Screen
 177. Deleting Movie Elements
 178. Showing & Hiding the "Are you sure?" Dialog
+179. Starting with the Confirmation Logic
+180. Finishig the App
+181. Wrap Up
+182. Useful Resources & Links
