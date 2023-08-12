@@ -206,3 +206,22 @@ Assignment 5
 180. Finishig the App
 181. Wrap Up
 182. Useful Resources & Links
+
+
+Section 8: More on Arrays & Iterables
+183. Module Introduction
+184. What are "Iterables" and "Array-like Objects"?
+185. Creating Arrays
+186. Which Data Can You Store in Arrays
+187. push(), pop(), unshift(), shift() -Adding & Removing Elements
+188. The splice() Method
+189. Selecting Ranges & Creating Copies with slice()
+190. Adding Arrays to Arrays with concat()
+191. Retrieving Indexes with indexOf() & lastIndexOf()
+192. Finding Stuff: find() and findIndexOf()
+193. Is it Included ?
+194. Alternative to for Loops: The forEach() Method
+195. Transforming Data with map()
+196. sort()ing and reverse()ing
+197. Filtering Arrays with filter()
+198. Where Arrow Functions Shine!
