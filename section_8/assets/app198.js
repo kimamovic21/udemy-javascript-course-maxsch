@@ -6,7 +6,7 @@ const tax = 0.19;
 const taxAdjustedPrices = prices.map((price, index, prices) => {
    const priceObject = {
       id: index,
-      taxAdjPrice: +(price * (1 + tax)).toFixed(2), 
+      taxAdjPrice: + (price * (1 + tax)).toFixed(2), 
    };
    return priceObject;
 });

@@ -69,3 +69,49 @@ Section 8: More on Arrays & Iterables
 
 198. Where Arrow Functions Shine!
 -funkciji brisemo {} i kljucnu rijec return
+
+
+199. The important reduce() Method
+-nizu prices dodajemo metodu reduce()
+
+
+200. Chaining Methods in JavaScript
+
+
+201. Arrays & Strings - split() and join()
+-varijabli data dodajemo metodu split()
+
+
+202. The Spread Operator (...)
+-koristitenje metode spred ( ... )
+
+
+203. Understanding Array Destructuring
+-koristenje metode destrukturiranja niza
+
+
+204. Maps & Sets - Overview
+
+
+205. Working with Sets
+
+
+206. Working with Maps
+
+
+207. Maps vs Objects
+
+
+208. Understanding WeakSet
+
+
+209. Understanding WeakMap
+
+
+Assignment 6
+
+
+210. Wrap Up
+
+
+211. Useful Resources & Links

@@ -225,3 +225,17 @@ Section 8: More on Arrays & Iterables
 196. sort()ing and reverse()ing
 197. Filtering Arrays with filter()
 198. Where Arrow Functions Shine!
+199. The important reduce() Method
+200. Chaining Methods in JavaScript
+201. Arrays & Strings - split() and join()
+202. The Spread Operator (...)
+203. Understanding Array Destructuring
+204. Maps & Sets - Overview
+205. Working with Sets
+206. Working with Maps
+207. Maps vs Objects
+208. Understanding WeakSet
+209. Understanding WeakMap
+Assignment 6
+210. Wrap Up
+211. Useful Resources & Links
