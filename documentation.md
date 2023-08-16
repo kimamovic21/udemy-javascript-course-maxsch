@@ -239,3 +239,33 @@ Section 8: More on Arrays & Iterables
 Assignment 6
 210. Wrap Up
 211. Useful Resources & Links
+
+
+Section 9: More on Objects
+212. Module Introduction
+213. What's an Object ?
+214. Objects & Primitive Values
+215. Objects - Recap
+216. Adding, Modifying & Deleting Properties
+217. Special Key Names & Square Bracket Property Access
+218. Property Types & Property Order
+219. Dynamic Property Access & Setting Properties Dynamically
+220. Demo App & Shorthand Property Syntax 
+221. Rendering Elements based on Objects
+222. for-in Loops & Outputting Dynamic Properties
+223. Adding the Filter Functionality
+224. Understanding "Chaining" (Property & Method Chaining)
+225. The Object Spread Operator (...)
+226. Understanding Object.assing()
+227. Object Destructuring
+228. Checking for Property Existance
+229. Introducing "this"
+230. The Method Shorthand Syntax
+231. The "this" Keyword And Its Strange Behaviour
+232. call() and apply()
+233. What the Browser (Sometimes) Does to "this"
+234. "this" and Arrow Functions
+235. "this" - Summary
+236. Getters & Setters
+237. Wrap Up
+238. Useful Resources & Links
