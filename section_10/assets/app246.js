@@ -1,4 +1,4 @@
-// 245. Using & "Connecting" Multiple Classes
+// 246. Binding Class Methods & Working with "this"
 
 class Product {
     constructor(title, image, desc, price) {
@@ -12,8 +12,12 @@ class Product {
 class ProductItem {
     constructor(product) {
         console.log(product);
-        // this.product = product adds a new "product" property to the eventually created objects
         this.product = product;
+    };
+
+    addToCart() {
+        console.log('Adding product to cart...');
+        console.log(this.product);
     };
 
     render() {
@@ -22,16 +26,18 @@ class ProductItem {
         // console.log(this);
         // console.log(this.product);
         productElement.innerHTML = `
-            <div>
-                <img src="${this.product.imageUrl}" alt="${this.product.title}">
-                <div class="product-item__content">
-                    <h2>${this.product.title}</h2>
-                    <h3>$${this.product.price}</h3>
-                    <p>${this.product.description}</p>
-                    <button> Add to Cart </button>
+                <div>
+                    <img src="${this.product.imageUrl}" alt="${this.product.title}">
+                    <div class="product-item__content">
+                        <h2>${this.product.title}</h2>
+                        <h3>$${this.product.price}</h3>
+                        <p>${this.product.description}</p>
+                        <button> Add to Cart </button>
+                    </div>
                 </div>
-            </div>
-        `;
+            `;
+       const addCartButton = productElement.querySelector('button');
+       addCartButton.addEventListener('click', this.addToCart.bind(this));
        return productElement;
     };
 };
