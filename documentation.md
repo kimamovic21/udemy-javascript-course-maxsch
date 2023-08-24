@@ -269,3 +269,33 @@ Section 9: More on Objects
 236. Getters & Setters
 237. Wrap Up
 238. Useful Resources & Links
+
+
+Section 10: Classes & Object-oriented Programming (OOP)
+239. Module Introduction
+240. What is "Object-oriented Programming" (OOP) ?
+241. Getting Started with OOP Code
+242. Defining & Using a First Class
+243. Working with Constructor Methods
+244. Fields vs Properties
+245. Using & "Connecting" Multiple Classes
+246. Binding Class Methods & Working with "this"
+247. Adding a Cart and Shop Class
+248. Communicating Can Be Challenging!
+249. Static Methods & Properties
+250. First Summary & Classes vs Object Literals
+251. Getters & Setters
+252. Introducing Inheritance
+253. Implementing Inheritance
+254. Using Inheritance Everywhere
+255. Overriding Methods and the super() Constructor
+256. super() Constructor Execution, Order & "this"
+257. Different Ways of Adding Methods
+258. Private Fields, Properties & Methods
+259. "Pseudo-Private" properties
+Assignment 7
+260. The "instanceoff" Operator
+261. Built-in Classes
+262. Understanding Object Descriptors
+263. Wrap Up
+264. Useful Resources & Links

@@ -86,7 +86,8 @@ class ProductList {
         ),
         new Product(
             'A Carpet', 
-            'https://sag.uz/image/carpet_1588574970.jpg', 'A carpet which you might like - or not.', 
+            'https://sag.uz/image/carpet_1588574970.jpg', 
+            'A carpet which you might like - or not.', 
             89.99
         )
     ];

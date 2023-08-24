@@ -1,4 +1,4 @@
-// 253. Implementing Inheritance
+// 256. super() Constructor Execution, Order & "this"
 
 class Product {
     constructor(title, image, desc, price) {
@@ -19,7 +19,10 @@ class ElementAttribute {
 class Component {
     constructor(renderHookId) {
         this.hookId = renderHookId;
+        this.render();
     };
+
+    render() {};
   
     createRootElement(tag, cssClasses, attributes) {
         const rootElement = document.createElement(tag);
@@ -72,8 +75,9 @@ class ShoppingCart extends Component {
     };
 };
   
-class ProductItem {
-    constructor(product) {
+class ProductItem extends Component{
+    constructor(product, renderHookId) {
+        super(renderHookId);
         this.product = product;
     };
   
@@ -82,8 +86,7 @@ class ProductItem {
     };
   
     render() {
-        const productElement = document.createElement('li');
-        productElement.className = 'product-item';
+        const productElement = this.createRootElement('li', 'product-item');
         productElement.innerHTML = `
             <div>
                 <img src="${this.product.imageUrl}" alt="${this.product.title}" >
@@ -97,11 +100,10 @@ class ProductItem {
         `;
         const addCartButton = productElement.querySelector('button');
         addCartButton.addEventListener('click', this.addToCart.bind(this));
-        return productElement;
     };
 };
   
-class ProductList {
+class ProductList extends Component {
     products = [
         new Product(
             'A Pillow',
@@ -117,30 +119,28 @@ class ProductList {
         )
     ];
   
-    constructor() {}
+    constructor(renderHookId) {
+        super(renderHookId);
+    };
   
     render() {
-        const productList = document.createElement('ul');
-        productList.className = 'product-list';
+        this.createRootElement('ul', 'product-list', [
+            new ElementAttribute('id', 'prod-list')
+        ]);
         for (const product of this.products) {
-            const productItem = new ProductItem(product);
-            const productElement = productItem.render();
-            productList.append(productElement);
+            new ProductItem(product, 'prod-list');
         };
-        return productList;
     };
 };
   
-class Shop {
+class Shop extends Component {
+    constructor() {
+        super();
+    };
+
     render() {
-        const renderHook = document.getElementById('app');
-
         this.cart = new ShoppingCart('app');
-        this.cart.render();
-        const productList = new ProductList();
-        const prodListElelement = productList.render();
-
-        renderHook.append(prodListElelement);
+        new ProductList('app');
     };
 };
   
@@ -149,7 +149,6 @@ class App {
 
     static init() {
         const shop = new Shop();
-        shop.render();
         this.cart = shop.cart;
     };
 

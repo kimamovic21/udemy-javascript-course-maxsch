@@ -6,9 +6,6 @@ Section 10: Classes & Object-oriented Programming (OOP)
 240. What is "Object-oriented Programming" (OOP) ?
 
 
-241. Getting Started with OOP Code 
-
-
 241. Getting Started with OOP Code
 -kreiramo objekt productLists
 -kreiramo niz products
@@ -24,7 +21,7 @@ Section 10: Classes & Object-oriented Programming (OOP)
 -varijabli productsList dodajemo metodu render()
 
 
-242. 
+242. Defining & Using a First Class
 -kreiramo klasu Product
 -u klasu Product dodajemo polja
 
@@ -116,3 +113,77 @@ Section 10: Classes & Object-oriented Programming (OOP)
 -u metodi render() dodajemo this.createRootElement()
 -u klasi ShoppingCart dodajemo funkciju constructor
 -u funkciji constructor dodajemo funkciju super()
+
+
+254. Using Inheritance Everywhere
+-klasi ProductItem dodajemo extends Component
+-u metodi render() kreiramo varijablu productElement
+-klasi ProductItem dodajemo metodu super()
+-klasi ProductList dodajemo extends Component
+-u metodi render() kreiramo productList varijablu
+-u metodi constructor() dodajemo metodu super()
+
+
+255. Overriding Methods and the super() Constructor
+-u klasi Component, unutar metode constructor() dodajemo this.render()
+-u klasi Shop kreiramo metodu constructor()
+-u metodi constructor() kreiramo metodu super()
+
+
+256. super() Constructor Execution, Order & "this"
+
+
+257. Different Ways of Adding Methods
+-kreiramo varijablu orderButton
+-kreiramo metodu orderProducts()
+
+
+258. Private Fields, Properties & Methods
+-u klasi ProductList dodajemo #products
+
+
+259. "Pseudo-Private" properties
+
+
+Assignment 7
+-kreiramo klasu Course
+-kreiramo funkciju constructor()
+-funkciji constructor() dodajemo parametre
+-kreiramo varijablu jsCourse
+-u klasi Course kreiramo metodu calculateValue()
+-u return izjavu dodajemo this.length/this.price
+-kreiramo metodu printSummary()
+-kreiramo varijable jsCourse i reactCourse
+-kreiramo novu klasu PracticalCourse
+-klasi PracticalCourse dodajemo extends Course
+-kreiramo constructor() funkciju
+-funkciji constructor() dodajemo parametre
+-dodajemo funkciju super()
+-kreiramo novu varijablu angularCourse
+-kreiramo klasu TheoreticalCourse 
+-klasi TheoreticalCourse dodajemo extends Course
+-kreiramo metodu publish()
+-kreiramo varijablu flutterCourse
+-varijabli price dodajemo _price
+-u klasi Course kreiramo metodu get price()
+-u klasi Course kreiramo metodu set price() sa parametrom value
+-u metodu set price() dodajemo uslov if
+-kreiramo varijablu #price
+-varijable _price preimenujemo u #price
+
+
+260. The "instanceoff" Operator
+
+
+261. Built-in Classes
+
+
+262. Understanding Object Descriptors
+-metoda Object.getOwnPropertyDescriptors
+-metoda Object.defineProperty
+
+
+263. Wrap Up
+
+
+264. Useful Resources & Links
