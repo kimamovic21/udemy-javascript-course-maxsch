@@ -315,3 +315,16 @@ Section 11: Deep Dive: Constructor Functions & Prototypes
 275. Setting & Getting Prototypes
 276. Wrap Up
 277. Useful Resources & Links
+
+
+Section 12: Practice: OOP & Classes
+278. Module Introduction
+279. First Project Steps & Planning
+280. Creating Project Lists & Parsin Element Data
+281. Starting with the "Switch Project" Logic
+282. Passing Method References Around
+283. Moving DOM Elements
+284. Adding a Tooltip
+285. Adding Inheritance
+286. Wrap Up
+287. Useful Resources & Links
