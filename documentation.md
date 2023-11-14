@@ -328,3 +328,22 @@ Section 12: Practice: OOP & Classes
 285. Adding Inheritance
 286. Wrap Up
 287. Useful Resources & Links
+
+
+Section 13: Back to the DOM & More Browser APIs
+288. Module Introduction
+289. Using "dataset" (data-* Attributes)
+290. Getting Element Box Dimensions
+291. Working with Element Sizes & Positions
+292. The DOM & Prototypes
+293. Positioning the Tooltip
+294. Handling Scrolling
+295. Working with <templates> Tags
+296. Loading Scripts Dynamically
+297. Setting Timers & Intervals
+298. The "location" and "history" Objects
+299. The "navigator" Object
+300. Working with Dates
+301. The "Error" Object & Constructor Function
+302. Wrap Up
+303. Usefuk Resources & Links
