@@ -347,3 +347,26 @@ Section 13: Back to the DOM & More Browser APIs
 301. The "Error" Object & Constructor Function
 302. Wrap Up
 303. Usefuk Resources & Links
+
+
+Section 14: Working with Events
+304. Module Introduction
+305. Introduction to Events in Javascript
+306. Different Ways of Listening to Events
+307. Removing Event Listeners
+308. The "event" Object
+309. Supported Event Types
+310. Example: Basic Infinite Scrolling
+311. Working with "preventDefault()"
+312. Understanding "Capturing" & "Bubbling" Phases
+313. Event Propagation & stopPropagation()
+314. Using Event Delegation
+315. Triggering DOM Elements Programmatically
+316. Event Handler Functions & "this"
+317. Drag & Drop - Theory
+318. Configuring Draggable Elements
+319. Marking the "Drop Area"
+320. Dropping & Moving Data + Elements
+321. Firefox Adjustments
+322. Wrap Up
+323. Useful Resources & Links
