@@ -370,3 +370,18 @@ Section 14: Working with Events
 321. Firefox Adjustments
 322. Wrap Up
 323. Useful Resources & Links
+
+
+Section 15: Advanced Function Concepts
+324. Module Introduction
+325. Pure Functions & Side-Effects
+326. Impure vs Pure Functions
+327. Factory Functions
+328. Closures
+329. Closures in Practice
+330. Closures & Memory Management
+331. Optional: IIFEs
+332. Introducing "Recursion"
+333. Advanced Recursion
+334. Wrap Up
+335. Useful Resources & Links
