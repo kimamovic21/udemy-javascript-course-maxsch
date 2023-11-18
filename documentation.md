@@ -385,3 +385,18 @@ Section 15: Advanced Function Concepts
 333. Advanced Recursion
 334. Wrap Up
 335. Useful Resources & Links
+
+
+Section 16: More on Numbers & Strings
+336. Module Introduction
+337. How Numbers Work & Behave in Javascript
+338. Floating Point (Im)Precision
+339. The BigInt Type
+340. The Global "Number" and "Math" Objects
+341. Example: Generate Random Number Between Min/Max
+342. Exploring String Methods
+343. Tagged Templates
+344. Introducing Regular Expressions ("RegEx")
+345. More on Regular Expressions
+346. Wrap Up
+347. Useful Resources & Links
