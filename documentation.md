@@ -400,3 +400,22 @@ Section 16: More on Numbers & Strings
 345. More on Regular Expressions
 346. Wrap Up
 347. Useful Resources & Links
+
+
+Section 17: Async Javascript: Promises & Callbacks
+348. Module Introduction
+349. Understanding Synchronous Code Execution ("Sync Code")
+350. Understanding Asynchronous Code Execution ("Async Code")
+351. Blocking Code & The "Event Loop"
+352. Sync + Async Code - The Execution Order
+353. Multiple Callbacks & setTimeout(0)
+354. Getting Started with Promises
+355. Chaining Multiple Promises
+356. Promise Error Handling
+357. Promise States & "finally"
+358. Async / await
+359. Async / await & Error Handling
+360. Async / await vs "Raw Promises"
+361. Promise.all(), Promise.race() etc.
+362. Wrap Up
+363. Useful Resources & Links
