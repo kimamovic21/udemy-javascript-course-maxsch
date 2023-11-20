@@ -419,3 +419,28 @@ Section 17: Async Javascript: Promises & Callbacks
 361. Promise.all(), Promise.race() etc.
 362. Wrap Up
 363. Useful Resources & Links
+
+
+Section 18: Working with Http Requests
+364. Module Introduction
+365. What & Why
+366. How The Web Works
+367. More Background about Http
+368. Getting Started with Http
+369. Sending a GET Request
+370. JSON Data & Parsing Data
+371. JSON Data Deep Dive
+372. Promisifying Http Requests (with XMLHttpRequest)
+373. Sending Data with a POST Request
+374. Triggering Requests via the UI
+375. The "Fetch" Button Always Appends
+376. Sending a DELETE Request
+377. Handling Errors
+378. Using the fetch() API
+379. POSTing Data with fetch () API
+380. Adding Request Headers
+381. fetch() & Error Handling
+382. XMLHttpRequest vs fetch()
+383. Working with FormData
+384. Wrap Up
+385. Useful Resources & Links
