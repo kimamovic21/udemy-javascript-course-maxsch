@@ -444,3 +444,15 @@ Section 18: Working with Http Requests
 383. Working with FormData
 384. Wrap Up
 385. Useful Resources & Links
+
+
+Section 19: Working with Javascript Libraries
+386. Module Introduction
+387. What & Why
+388. Adding Libraries (Example: lodash)
+389. Example: jQuery
+390. Discovering Libraries
+391. Axios Library & Http Requests
+392. Third-Party Library Considerations
+393. Wrap Up
+394. Useful Resources & Links

@@ -6,7 +6,7 @@ const form = document.querySelector('#new-post form');
 const fetchButton = document.querySelector('#available-posts button');
 const postList = document.querySelector('ul');
 
-async function sendHttpRequest(method, url, data) {
+function sendHttpRequest(method, url, data) {
   return fetch(url, {
     method: method,
     body: JSON.stringify(data)
