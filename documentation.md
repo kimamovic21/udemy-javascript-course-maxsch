@@ -456,3 +456,19 @@ Section 19: Working with Javascript Libraries
 392. Third-Party Library Considerations
 393. Wrap Up
 394. Useful Resources & Links
+
+
+Secton 20: Modular Javascript (Working with Modules)
+395. Module Introduction
+396. Splitting Code in a Sub-optimal Way
+397. A First Step Towards Javascript Modules
+398. We Need a Development Server!
+399. First import/export Work
+400. Switching All Files To Use Modules
+401. More Name Export Syntax Variations
+402. Working With Default Exports
+403. Dynamic Imports & Code Splitting
+404. When Does Module Code Execute ?
+405. Module Scope & globalThis
+406. Wrap Up
+407. Useful Resources & Links
