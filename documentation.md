@@ -458,7 +458,7 @@ Section 19: Working with Javascript Libraries
 394. Useful Resources & Links
 
 
-Secton 20: Modular Javascript (Working with Modules)
+Section 20: Modular Javascript (Working with Modules)
 395. Module Introduction
 396. Splitting Code in a Sub-optimal Way
 397. A First Step Towards Javascript Modules
@@ -472,3 +472,24 @@ Secton 20: Modular Javascript (Working with Modules)
 405. Module Scope & globalThis
 406. Wrap Up
 407. Useful Resources & Links
+
+
+Section 21: Javascript Tooling & Workflows
+408. Module Introduction
+409. Project Limitations & Why We Need Tools
+410. Workflow Overview
+411. Setting Up a npm Package
+412. Working with npm Packages
+413. Linting with ESLint
+414. Configuring ESLint
+415. Importnant: Webpack Version & Configuring npm Scripts
+416. Bundling with Webpack
+417. Bonus: Multiple Entry Points
+418. Development Mode & Fixing "Lazy Loading"
+419. Using webpack-dev-server
+420. Generating Sourcemaps
+421. Building For Production
+422. Final Optimizations
+423. Using Third Party Packages with npm & Webpack
+424. Wrap Up
+425. Useful Resources & Links

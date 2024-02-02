@@ -1,4 +1,4 @@
-Secton 20: Modular Javascript (Working with Modules)
+Section 20: Modular Javascript (Working with Modules)
 
 395. Module Introduction
 
