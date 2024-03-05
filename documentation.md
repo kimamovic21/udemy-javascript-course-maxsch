@@ -493,3 +493,15 @@ Section 21: Javascript Tooling & Workflows
 423. Using Third Party Packages with npm & Webpack
 424. Wrap Up
 425. Useful Resources & Links
+
+
+Section 22: Utilizing Browser Storage
+426. Module Introduction
+427. Browser Storage Options
+428. localStorage & sessionStorage
+429. Getting Started with Cookies
+430. Working with Cookies
+431. Getting Started with IndexedDB
+432. Working with IndexedDB
+433. Wrap Up
+434. Useful Resources & Links
