@@ -505,3 +505,18 @@ Section 22: Utilizing Browser Storage
 432. Working with IndexedDB
 433. Wrap Up
 434. Useful Resources & Links
+
+
+Section 23: JavaScript & Browser Support
+435. Module Introduction
+436. What Is "Browser Support" About ?
+437. Determining Browser Support For a JavaScript Feature
+438. Determining Required Support
+439. Solution: Feature Detection + Fallback Code
+440. Solution: Using Polyfills
+441. Solution: Transpiling Code
+442. Solution: Improvement: Automatically Detect + Add Polyfills
+443. What about Support Outside of Browsers ?
+444. Browser Support Outside of JavaScript Files
+445. Wrap Up
+446. Useful Resources & Links
