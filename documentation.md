@@ -15,508 +15,527 @@ Section 1: Introduction
 12. A Brief History Of Javascript
 13. Setting Up a Development Environment
 14. Course FAQs
-
+15. Course Setup
 
 Section 2: Variables, Data Types, Operators & Functions
-15. Module Introduction
-16. Setting Up the Project
-17. More on Version Control & Git
-18. Adding Javascript to the Website
-19. Introducing Variables & Constants
-20. Declaring & Defining Variables
-21. Working with Variables & Operators
-22. Understanding the Starting Code
-23. Data Types: Numbers & Strings (Text)
-24. Using Constants
-25. More on Strings
+16. Module Introduction
+17. Setting Up the Project
+18. More on Version Control & Git
+19. Adding Javascript to the Website
+20. Introducing Variables & Constants
+21. Declaring & Defining Variables
+22. Working with Variables & Operators
+23. Understanding the Starting Code
+24. Data Types: Numbers & Strings (Text)
+25. Using Constants
+26. More on Strings
 Assignment 1: Time to Practice: ...
-26. Introducing Functions
-27. Adding A Custom Function
-28. Code Styles, Conventions & Syntax
-29. Returning Value
-30. The (Un)Importance of Code Order
-31. An Introduction to Global & Local Scope
-32. "Shadowed Variables"
-33. More about the "return" statement
-34. Executing Functions "Indirectly"
-35. "Indirect" vs "Direct" Function Execution - Summary
+27. Introducing Functions
+28. Adding A Custom Function
+29. Code Styles, Conventions & Syntax
+30. Returning Value
+31. The (Un)Importance of Code Order
+32. An Introduction to Global & Local Scope
+33. "Shadowed Variables"
+34. More about the "return" statement
+35. Executing Functions "Indirectly"
+36. "Indirect" vs "Direct" Function Execution - Summary
 Assignment 2: Time to Practice: Functions
-36. Converting Data Types
-37. Mixing Numbers & Strings
-38. Splitting Code into Functions
-39. Connecting all Buttons to Functions
-40. Working with Code Comments
-41. More Operators!
-42. More Core Data Types
-43. Using Arrays
-44. Creating Objects
-45. Objects - Common Syntax Gotchas
-46. Accessing Object Data
-47. Adding a Re-Usable Function That Uses Objects
-48. undefined, null & NaN
-49. The "typeof" Operator
-50. Importing Scripts Correctly with "defer" & "async"
-51. Importing Javascript - Summary
-52. Wrap Up
-53. Useful Resources & Links
+37. Converting Data Types
+38. Mixing Numbers & Strings
+39. Splitting Code into Functions
+40. Connecting all Buttons to Functions
+41. Working with Code Comments
+42. More Operators!
+43. More Core Data Types
+44. Using Arrays
+45. Creating Objects
+46. Objects - Common Syntax Gotchas
+47. Accessing Object Data
+48. Adding a Re-Usable Function That Uses Objects
+49. undefined, null & NaN
+50. The "typeof" Operator
+51. Importing Scripts Correctly with "defer" & "async"
+52. Importing Javascript - Summary
+53. Wrap Up
+54. Useful Resources & Links
 
 
 Section 3: Efficient Development & Debugging
-54. Module Introduction
-55. Efficient Development & Debugging - An Overview
-56. Configuring the IDE Look & Feel 
-57. Using Shortcuts
-58. Working with Auto-Completion & IDE Hints
-59. Installing IDE Extensions
-60. Tweaking Editor Settings
-61. Utilizing Different IDE Views
-62. Finding Help & Working with MDN 
-63. The ECMAScript Standard
-64. How to "google" Correctly
-65. Debugging Javascript - An Overview
-66. An Error Message! No Reason To Panic!
-67. Using console.log() to look "into the Code"
-68. Next-Level Debugging with the Chrome Devtools & Breakpoints
-69. Testing Code Changes Directly in the Devtools
-70. Debugging Code directly Inside VS Code
-71. Wrap Up
-72. Useful Resources & Links
+55. Module Introduction
+56. Efficient Development & Debugging - An Overview
+57. Configuring the IDE Look & Feel 
+58. Using Shortcuts
+59. Working with Auto-Completion & IDE Hints
+60. Installing IDE Extensions
+61. Tweaking Editor Settings
+62. Utilizing Different IDE Views
+63. Finding Help & Working with MDN 
+64. The ECMAScript Standard
+65. How to "google" Correctly
+66. Debugging Javascript - An Overview
+67. An Error Message! No Reason To Panic!
+68. Using console.log() to look "into the Code"
+69. Next-Level Debugging with the Chrome Devtools & Breakpoints
+70. Testing Code Changes Directly in the Devtools
+71. Debugging Code directly Inside VS Code
+72. Wrap Up
+73. Useful Resources & Links
 
 
 Section 4: Working with Control Structures (if Statements, Loops, Error Handling)
-73. Module Introduction
-74. Introducing "if" Statements & Boolean (Comparison) Operators
-75. Using Booleans in Conditions & More on Text Comparisons
-76. Using "if" Statement
-77. Working with "if", "else" and "else-if" Statement
-78. Beware When Comparing Objects & Arrays for Equality!
-79. The Logical AND and OR Operators
-80. Understanding Operator Precedence
-81. Beyond true/false: "Truthy" and "Falsy" Values
-82. Coercion vs Converison
-83. Setting Up a Bigger Example Project(The "Monster Killer")
-84. Adding an "Attack Function"
-85. Using "if" Statements for Checking the Win-Condition
-86. Adding More "if" Statements & A "Strong Attack" Functionality
-87. Time for a "Heal Player" Functionality!
-88. Controlling the Conditional Bonus Life(Without Boolean Operators!)
-89. Adding a "Reset Game" Functionality
-90. Validating User Input
-91. Utilizing Global Constants as Identifiers in Conditional Code
-92. Adding a Conditional Battle Log
-93. Introducing the Ternary Operator
-94. A Bit of Theory: Statements vs Expressions
-95. Logical Operator "Tricks" & Shorthands
-96. Logical Operators & How They Work
-97. Working with the "switch-case" Statement
-98. Introducing Loops
-99. The "for" Loop
-100. The "for-of" Lopp
-101. The "for-in" Loop
-102. The "while" & "do-while" Loops
+75. Module Introduction
+75. Introducing "if" Statements & Boolean (Comparison) Operators
+76. Using Booleans in Conditions & More on Text Comparisons
+77. Using "if" Statement
+78. Working with "if", "else" and "else-if" Statement
+79. Beware When Comparing Objects & Arrays for Equality!
+80. The Logical AND and OR Operators
+81. Understanding Operator Precedence
+82. Beyond true/false: "Truthy" and "Falsy" Values
+83. Coercion vs Converison
+84. Setting Up a Bigger Example Project(The "Monster Killer")
+85. Adding an "Attack Function"
+86. Using "if" Statements for Checking the Win-Condition
+87. Adding More "if" Statements & A "Strong Attack" Functionality
+88. Time for a "Heal Player" Functionality!
+89. Controlling the Conditional Bonus Life(Without Boolean Operators!)
+90. Adding a "Reset Game" Functionality
+91. Validating User Input
+92. Utilizing Global Constants as Identifiers in Conditional Code
+93. Adding a Conditional Battle Log
+94. Introducing the Ternary Operator
+95. A Bit of Theory: Statements vs Expressions
+96. Logical Operator "Tricks" & Shorthands
+97. Logical Operators & How They Work
+98. Working with the "switch-case" Statement
+99. Introducing Loops
+100. The "for" Loop
+101. The "for-of" Lopp
+102. The "for-in" Loop
+103. The "while" & "do-while" Loops
 Assignment 3: Time to Practice: Control Structures
-103. Controlling Loops with "break"
-104. Controlling Iterations with "continue"
-105. More Control with Labeled Statements
-106. Error Handling with "try-catch" - An Introduction
-107. Throwing Custom Errors
-108. Working with "try-catch" to Catch & Handle Errors
-109. Wrap Up
-110. Useful Resources & Links
+104. Controlling Loops with "break"
+105. Controlling Iterations with "continue"
+106. More Control with Labeled Statements
+107. Error Handling with "try-catch" - An Introduction
+108. Throwing Custom Errors
+109. Working with "try-catch" to Catch & Handle Errors
+110. Wrap Up
+111. Useful Resources & Links
 
 
 Section 5: Behind the Scenes
-111. Module Introduction
-112. ES5 vs ES6+ ("Next Gen JS") - Evolution of Javascript
-113. var vs let & const - Introducing "Block Scope"
-114. Understanding "Hoisting"
-115. Strict Mode & Writing Good Code
-116. How Code is Parsed & Compiled
-117. Inside the JavaScript Engine - How the Code Executes
-118. [DEEP DIVE] JavaScript Language vs Browser APIs
-119. Primitive vs Reference Values
-120. Garbage Collection & Memory Management
-121. Wrap Up
-122. Useful Resources & Links
+112. Module Introduction
+113. ES5 vs ES6+ ("Next Gen JS") - Evolution of Javascript
+114. var vs let & const - Introducing "Block Scope"
+115. Understanding "Hoisting"
+116. Strict Mode & Writing Good Code
+117. How Code is Parsed & Compiled
+118. Inside the JavaScript Engine - How the Code Executes
+119. [DEEP DIVE] JavaScript Language vs Browser APIs
+120. Primitive vs Reference Values
+121. Garbage Collection & Memory Management
+122. Wrap Up
+123. Useful Resources & Links
 
 
 Section 6: More on Functions
-123. ModuleIntroduction
-124. Recapping Functions Knowledge - What We Know Thus Far
-125. Parameters vs Argumets
-126. Functions vs Methods
-127. Functions are Objects!
-128. Functions Expressions: Storing Functions in Variables
-129. Function Expressions vs Function Declaration
-130. Anonymous Functions
-131. Working on the Project: Adding User Choices to the Game
-132. Implementing the Core Game Logic
-133. Introducing Arrow Functions
-134. Different Arrow Function Syntaxes
-135. Outputting Messages to the User
-136. Default Arguments in Functions
-137. Introducing Rest Parameters ("Rest Operator")
-138. Creating Functions Inside of Functions
-139. Understanding Callback Functions
+124. ModuleIntroduction
+125. Recapping Functions Knowledge - What We Know Thus Far
+126. Parameters vs Argumets
+127. Functions vs Methods
+128. Functions are Objects!
+129. Functions Expressions: Storing Functions in Variables
+130. Function Expressions vs Function Declaration
+131. Anonymous Functions
+132. Working on the Project: Adding User Choices to the Game
+133. Implementing the Core Game Logic
+134. Introducing Arrow Functions
+135. Different Arrow Function Syntaxes
+136. Outputting Messages to the User
+137. Default Arguments in Functions
+138. Introducing Rest Parameters ("Rest Operator")
+139. Creating Functions Inside of Functions
+140. Understanding Callback Functions
 Assignment 4: Time to Practice: Functions
-140. Working with "bind()"
-141. Adding bind() to Calculator Project
-142. call() and apply()
-143. Wrap Up
-144. Useful Resources & Links
+141. Working with "bind()"
+142. Adding bind() to Calculator Project
+143. call() and apply()
+144. Wrap Up
+145. Useful Resources & Links
 
 
 Section 7: Working with the DOM
-145. Module Introduction
-146. What's the "DOM"?
-147. Document and Window Object
-148. Understanding the DOM and how it's created
-149. Nodes & Elements - Querying the DOM Overview
-150. Selecting Elements in the DOM
-151. Summary: Node Query Methods
-152. Exploring and Changing DOM Properties
-153. Attributes vs Properties
-154. Selecting Multiple Elements & Summary
+146. Module Introduction
+147. What's the "DOM"?
+148. Document and Window Object
+149. Understanding the DOM and how it's created
+150. Nodes & Elements - Querying the DOM Overview
+151. Selecting Elements in the DOM
+152. Summary: Node Query Methods
+153. Exploring and Changing DOM Properties
+154. Attributes vs Properties
+155. Selecting Multiple Elements & Summary
 Assignment 5
-155. Traversing the DOM
-156. Traversing Child Nodes
-157. Using parentNode & parentElement
-158. Selecting Sibling Elements
-159. DOM Traversal vs Query Methods
-160. Styling DOM Elements
-161. Creating & Inserting Elements
-162. Adding Elements via HTML in Code
-163. Adding Elements via createElement()
-164. Inserting DOM Elements
-165. Cloning DOM Nodes
-166. Live Node Lists vs Static Node Lists
-167. Removing Elements
-168. Insertion & Removal Method Summary
-169. Summary: Insert, Replace, Remove
-170. Setting Up the Practice Project
-171. Selecting the Modal and "Add" Button
-172. Opening a Modal by Changing CSS Classes
-173. Controlling the Backdrop
-174. Fetching and Validating User Input
-175. Creating a Movie in Javascript & Clearing the Input
-176. Rendering Movie Items on the Screen
-177. Deleting Movie Elements
-178. Showing & Hiding the "Are you sure?" Dialog
-179. Starting with the Confirmation Logic
-180. Finishig the App
-181. Wrap Up
-182. Useful Resources & Links
+156. Traversing the DOM
+157. Traversing Child Nodes
+158. Using parentNode & parentElement
+159. Selecting Sibling Elements
+160. DOM Traversal vs Query Methods
+161. Styling DOM Elements
+162. Creating & Inserting Elements
+163. Adding Elements via HTML in Code
+164. Adding Elements via createElement()
+165. Inserting DOM Elements
+166. Cloning DOM Nodes
+167. Live Node Lists vs Static Node Lists
+168. Removing Elements
+169. Insertion & Removal Method Summary
+170. Summary: Insert, Replace, Remove
+171. Setting Up the Practice Project
+172. Selecting the Modal and "Add" Button
+173. Opening a Modal by Changing CSS Classes
+174. Controlling the Backdrop
+175. Fetching and Validating User Input
+176. Creating a Movie in Javascript & Clearing the Input
+177. Rendering Movie Items on the Screen
+178. Deleting Movie Elements
+179. Showing & Hiding the "Are you sure?" Dialog
+180. Starting with the Confirmation Logic
+181. Finishig the App
+182. Wrap Up
+183. Useful Resources & Links
 
 
 Section 8: More on Arrays & Iterables
-183. Module Introduction
-184. What are "Iterables" and "Array-like Objects"?
-185. Creating Arrays
-186. Which Data Can You Store in Arrays
-187. push(), pop(), unshift(), shift() -Adding & Removing Elements
-188. The splice() Method
-189. Selecting Ranges & Creating Copies with slice()
-190. Adding Arrays to Arrays with concat()
-191. Retrieving Indexes with indexOf() & lastIndexOf()
-192. Finding Stuff: find() and findIndexOf()
-193. Is it Included ?
-194. Alternative to for Loops: The forEach() Method
-195. Transforming Data with map()
-196. sort()ing and reverse()ing
-197. Filtering Arrays with filter()
-198. Where Arrow Functions Shine!
-199. The important reduce() Method
-200. Chaining Methods in JavaScript
-201. Arrays & Strings - split() and join()
-202. The Spread Operator (...)
-203. Understanding Array Destructuring
-204. Maps & Sets - Overview
-205. Working with Sets
-206. Working with Maps
-207. Maps vs Objects
-208. Understanding WeakSet
-209. Understanding WeakMap
+184. Module Introduction
+185. What are "Iterables" and "Array-like Objects"?
+186. Creating Arrays
+187. Which Data Can You Store in Arrays
+188. push(), pop(), unshift(), shift() -Adding & Removing Elements
+189. The splice() Method
+190. Selecting Ranges & Creating Copies with slice()
+191. Adding Arrays to Arrays with concat()
+192. Retrieving Indexes with indexOf() & lastIndexOf()
+193. Finding Stuff: find() and findIndexOf()
+194. Is it Included ?
+195. Alternative to for Loops: The forEach() Method
+196. Transforming Data with map()
+197. sort()ing and reverse()ing
+198. Filtering Arrays with filter()
+199. Where Arrow Functions Shine!
+200. The important reduce() Method
+201. Chaining Methods in JavaScript
+202. Arrays & Strings - split() and join()
+203. The Spread Operator (...)
+204. Understanding Array Destructuring
+205. Maps & Sets - Overview
+206. Working with Sets
+207. Working with Maps
+208. Maps vs Objects
+209. Understanding WeakSet
+210. Understanding WeakMap
 Assignment 6
-210. Wrap Up
-211. Useful Resources & Links
+211. Wrap Up
+212. Useful Resources & Links
 
 
 Section 9: More on Objects
-212. Module Introduction
-213. What's an Object ?
-214. Objects & Primitive Values
-215. Objects - Recap
-216. Adding, Modifying & Deleting Properties
-217. Special Key Names & Square Bracket Property Access
-218. Property Types & Property Order
-219. Dynamic Property Access & Setting Properties Dynamically
-220. Demo App & Shorthand Property Syntax 
-221. Rendering Elements based on Objects
-222. for-in Loops & Outputting Dynamic Properties
-223. Adding the Filter Functionality
-224. Understanding "Chaining" (Property & Method Chaining)
-225. The Object Spread Operator (...)
-226. Understanding Object.assing()
-227. Object Destructuring
-228. Checking for Property Existance
-229. Introducing "this"
-230. The Method Shorthand Syntax
-231. The "this" Keyword And Its Strange Behaviour
-232. call() and apply()
-233. What the Browser (Sometimes) Does to "this"
-234. "this" and Arrow Functions
-235. "this" - Summary
-236. Getters & Setters
-237. Wrap Up
-238. Useful Resources & Links
+213. Module Introduction
+214. What's an Object ?
+215. Objects & Primitive Values
+216. Objects - Recap
+217. Adding, Modifying & Deleting Properties
+218. Special Key Names & Square Bracket Property Access
+219. Property Types & Property Order
+220. Dynamic Property Access & Setting Properties Dynamically
+221. Demo App & Shorthand Property Syntax 
+222. Rendering Elements based on Objects
+223. for-in Loops & Outputting Dynamic Properties
+224. Adding the Filter Functionality
+225. Understanding "Chaining" (Property & Method Chaining)
+226. The Object Spread Operator (...)
+227. Understanding Object.assing()
+228. Object Destructuring
+229. Checking for Property Existance
+230. Introducing "this"
+231. The Method Shorthand Syntax
+232. The "this" Keyword And Its Strange Behaviour
+233. call() and apply()
+234. What the Browser (Sometimes) Does to "this"
+235. "this" and Arrow Functions
+236. "this" - Summary
+237. Getters & Setters
+238. Wrap Up
+239. Useful Resources & Links
 
 
 Section 10: Classes & Object-oriented Programming (OOP)
-239. Module Introduction
-240. What is "Object-oriented Programming" (OOP) ?
-241. Getting Started with OOP Code
-242. Defining & Using a First Class
-243. Working with Constructor Methods
-244. Fields vs Properties
-245. Using & "Connecting" Multiple Classes
-246. Binding Class Methods & Working with "this"
-247. Adding a Cart and Shop Class
-248. Communicating Can Be Challenging!
-249. Static Methods & Properties
-250. First Summary & Classes vs Object Literals
-251. Getters & Setters
-252. Introducing Inheritance
-253. Implementing Inheritance
-254. Using Inheritance Everywhere
-255. Overriding Methods and the super() Constructor
-256. super() Constructor Execution, Order & "this"
-257. Different Ways of Adding Methods
-258. Private Fields, Properties & Methods
-259. "Pseudo-Private" properties
+240. Module Introduction
+241. What is "Object-oriented Programming" (OOP) ?
+242. Getting Started with OOP Code
+243. Defining & Using a First Class
+244. Working with Constructor Methods
+245. Fields vs Properties
+246. Using & "Connecting" Multiple Classes
+247. Binding Class Methods & Working with "this"
+248. Adding a Cart and Shop Class
+249. Communicating Can Be Challenging!
+250. Static Methods & Properties
+251. First Summary & Classes vs Object Literals
+252. Getters & Setters
+253. Introducing Inheritance
+254. Implementing Inheritance
+255. Using Inheritance Everywhere
+256. Overriding Methods and the super() Constructor
+257. super() Constructor Execution, Order & "this"
+258. Different Ways of Adding Methods
+259. Private Fields, Properties & Methods
+260. "Pseudo-Private" properties
 Assignment 7
-260. The "instanceoff" Operator
-261. Built-in Classes
-262. Understanding Object Descriptors
-263. Wrap Up
-264. Useful Resources & Links
+261. The "instanceoff" Operator
+262. Built-in Classes
+263. Understanding Object Descriptors
+264. Wrap Up
+265. Useful Resources & Links
 
 
 Section 11: Deep Dive: Constructor Functions & Prototypes
-265. Module Introduction
-266. Introducing Constructor Functions
-267. Constructor Functions vs Classes & Understanding "new"
-268. Introducing Prototypes
-269. Prototypes - Summary
-270. Working with Prototypes
-271. The Prototype Chain and the Global "Object"
-272. Classes & Prototypes
-273. Methods in Classes & In Constructors
-274. Built-in Prototypes in Javascript
-275. Setting & Getting Prototypes
-276. Wrap Up
-277. Useful Resources & Links
+266. Module Introduction
+267. Introducing Constructor Functions
+268. Constructor Functions vs Classes & Understanding "new"
+269. Introducing Prototypes
+270. Prototypes - Summary
+271. Working with Prototypes
+272. The Prototype Chain and the Global "Object"
+273. Classes & Prototypes
+274. Methods in Classes & In Constructors
+275. Built-in Prototypes in Javascript
+276. Setting & Getting Prototypes
+277. Wrap Up
+278. Useful Resources & Links
 
 
 Section 12: Practice: OOP & Classes
-278. Module Introduction
-279. First Project Steps & Planning
-280. Creating Project Lists & Parsin Element Data
-281. Starting with the "Switch Project" Logic
-282. Passing Method References Around
-283. Moving DOM Elements
-284. Adding a Tooltip
-285. Adding Inheritance
-286. Wrap Up
-287. Useful Resources & Links
+279. Module Introduction
+280. First Project Steps & Planning
+281. Creating Project Lists & Parsin Element Data
+282. Starting with the "Switch Project" Logic
+283. Passing Method References Around
+284. Moving DOM Elements
+285. Adding a Tooltip
+286. Adding Inheritance
+287. Wrap Up
+288. Useful Resources & Links
 
 
 Section 13: Back to the DOM & More Browser APIs
-288. Module Introduction
-289. Using "dataset" (data-* Attributes)
-290. Getting Element Box Dimensions
-291. Working with Element Sizes & Positions
-292. The DOM & Prototypes
-293. Positioning the Tooltip
-294. Handling Scrolling
-295. Working with <templates> Tags
-296. Loading Scripts Dynamically
-297. Setting Timers & Intervals
-298. The "location" and "history" Objects
-299. The "navigator" Object
-300. Working with Dates
-301. The "Error" Object & Constructor Function
-302. Wrap Up
-303. Usefuk Resources & Links
+289. Module Introduction
+290. Using "dataset" (data-* Attributes)
+291. Getting Element Box Dimensions
+292. Working with Element Sizes & Positions
+293. The DOM & Prototypes
+294. Positioning the Tooltip
+295. Handling Scrolling
+296. Working with <templates> Tags
+297. Loading Scripts Dynamically
+298. Setting Timers & Intervals
+299. The "location" and "history" Objects
+300. The "navigator" Object
+301. Working with Dates
+302. The "Error" Object & Constructor Function
+303. Wrap Up
+304. Usefuk Resources & Links
 
 
 Section 14: Working with Events
-304. Module Introduction
-305. Introduction to Events in Javascript
-306. Different Ways of Listening to Events
-307. Removing Event Listeners
-308. The "event" Object
-309. Supported Event Types
-310. Example: Basic Infinite Scrolling
-311. Working with "preventDefault()"
-312. Understanding "Capturing" & "Bubbling" Phases
-313. Event Propagation & stopPropagation()
-314. Using Event Delegation
-315. Triggering DOM Elements Programmatically
-316. Event Handler Functions & "this"
-317. Drag & Drop - Theory
-318. Configuring Draggable Elements
-319. Marking the "Drop Area"
-320. Dropping & Moving Data + Elements
-321. Firefox Adjustments
-322. Wrap Up
-323. Useful Resources & Links
+305. Module Introduction
+306. Introduction to Events in Javascript
+307. Different Ways of Listening to Events
+308. Removing Event Listeners
+309. The "event" Object
+310. Supported Event Types
+311. Example: Basic Infinite Scrolling
+312. Working with "preventDefault()"
+313. Understanding "Capturing" & "Bubbling" Phases
+314. Event Propagation & stopPropagation()
+315. Using Event Delegation
+316. Triggering DOM Elements Programmatically
+317. Event Handler Functions & "this"
+318. Drag & Drop - Theory
+319. Configuring Draggable Elements
+320. Marking the "Drop Area"
+321. Dropping & Moving Data + Elements
+322. Firefox Adjustments
+323. Wrap Up
+324. Useful Resources & Links
 
 
 Section 15: Advanced Function Concepts
-324. Module Introduction
-325. Pure Functions & Side-Effects
-326. Impure vs Pure Functions
-327. Factory Functions
-328. Closures
-329. Closures in Practice
-330. Closures & Memory Management
-331. Optional: IIFEs
-332. Introducing "Recursion"
-333. Advanced Recursion
-334. Wrap Up
-335. Useful Resources & Links
+325. Module Introduction
+326. Pure Functions & Side-Effects
+327. Impure vs Pure Functions
+328. Factory Functions
+329. Closures
+330. Closures in Practice
+331. Closures & Memory Management
+332. Optional: IIFEs
+333. Introducing "Recursion"
+334. Advanced Recursion
+335. Wrap Up
+336. Useful Resources & Links
 
 
 Section 16: More on Numbers & Strings
-336. Module Introduction
-337. How Numbers Work & Behave in Javascript
-338. Floating Point (Im)Precision
-339. The BigInt Type
-340. The Global "Number" and "Math" Objects
-341. Example: Generate Random Number Between Min/Max
-342. Exploring String Methods
-343. Tagged Templates
-344. Introducing Regular Expressions ("RegEx")
-345. More on Regular Expressions
-346. Wrap Up
-347. Useful Resources & Links
+337. Module Introduction
+338. How Numbers Work & Behave in Javascript
+339. Floating Point (Im)Precision
+340. The BigInt Type
+341. The Global "Number" and "Math" Objects
+342. Example: Generate Random Number Between Min/Max
+343. Exploring String Methods
+344. Tagged Templates
+345. Introducing Regular Expressions ("RegEx")
+346. More on Regular Expressions
+347. Wrap Up
+348. Useful Resources & Links
 
 
 Section 17: Async Javascript: Promises & Callbacks
-348. Module Introduction
-349. Understanding Synchronous Code Execution ("Sync Code")
-350. Understanding Asynchronous Code Execution ("Async Code")
-351. Blocking Code & The "Event Loop"
-352. Sync + Async Code - The Execution Order
-353. Multiple Callbacks & setTimeout(0)
-354. Getting Started with Promises
-355. Chaining Multiple Promises
-356. Promise Error Handling
-357. Promise States & "finally"
-358. Async / await
-359. Async / await & Error Handling
-360. Async / await vs "Raw Promises"
-361. Promise.all(), Promise.race() etc.
-362. Wrap Up
-363. Useful Resources & Links
+349. Module Introduction
+350. Understanding Synchronous Code Execution ("Sync Code")
+351. Understanding Asynchronous Code Execution ("Async Code")
+352. Blocking Code & The "Event Loop"
+353. Sync + Async Code - The Execution Order
+354. Multiple Callbacks & setTimeout(0)
+355. Getting Started with Promises
+356. Chaining Multiple Promises
+357. Promise Error Handling
+358. Promise States & "finally"
+359. Async / await
+360. Async / await & Error Handling
+361. Async / await vs "Raw Promises"
+362. Promise.all(), Promise.race() etc.
+363. Wrap Up
+364. Useful Resources & Links
 
 
 Section 18: Working with Http Requests
-364. Module Introduction
-365. What & Why
-366. How The Web Works
-367. More Background about Http
-368. Getting Started with Http
-369. Sending a GET Request
-370. JSON Data & Parsing Data
-371. JSON Data Deep Dive
-372. Promisifying Http Requests (with XMLHttpRequest)
-373. Sending Data with a POST Request
-374. Triggering Requests via the UI
-375. The "Fetch" Button Always Appends
-376. Sending a DELETE Request
-377. Handling Errors
-378. Using the fetch() API
-379. POSTing Data with fetch () API
-380. Adding Request Headers
-381. fetch() & Error Handling
-382. XMLHttpRequest vs fetch()
-383. Working with FormData
-384. Wrap Up
-385. Useful Resources & Links
+365. Module Introduction
+366. What & Why
+367. How The Web Works
+368. More Background about Http
+369. Getting Started with Http
+370. Sending a GET Request
+371. JSON Data & Parsing Data
+372. JSON Data Deep Dive
+373. Promisifying Http Requests (with XMLHttpRequest)
+374. Sending Data with a POST Request
+375. Triggering Requests via the UI
+376. The "Fetch" Button Always Appends
+377. Sending a DELETE Request
+378. Handling Errors
+379. Using the fetch() API
+380. POSTing Data with fetch () API
+381. Adding Request Headers
+382. fetch() & Error Handling
+383. XMLHttpRequest vs fetch()
+384. Working with FormData
+385. Wrap Up
+386. Useful Resources & Links
 
 
 Section 19: Working with Javascript Libraries
-386. Module Introduction
-387. What & Why
-388. Adding Libraries (Example: lodash)
-389. Example: jQuery
-390. Discovering Libraries
-391. Axios Library & Http Requests
-392. Third-Party Library Considerations
-393. Wrap Up
-394. Useful Resources & Links
+387. Module Introduction
+388. What & Why
+389. Adding Libraries (Example: lodash)
+390. Example: jQuery
+391. Discovering Libraries
+392. Axios Library & Http Requests
+393. Third-Party Library Considerations
+394. Wrap Up
+395. Useful Resources & Links
 
 
 Section 20: Modular Javascript (Working with Modules)
-395. Module Introduction
-396. Splitting Code in a Sub-optimal Way
-397. A First Step Towards Javascript Modules
+396. Module Introduction
+397. Splitting Code in a Sub-optimal Way
+398. A First Step Towards Javascript Modules
 398. We Need a Development Server!
-399. First import/export Work
-400. Switching All Files To Use Modules
-401. More Name Export Syntax Variations
-402. Working With Default Exports
-403. Dynamic Imports & Code Splitting
-404. When Does Module Code Execute ?
-405. Module Scope & globalThis
-406. Wrap Up
-407. Useful Resources & Links
+400. First import/export Work
+401. Switching All Files To Use Modules
+402. More Name Export Syntax Variations
+403. Working With Default Exports
+404. Dynamic Imports & Code Splitting
+405. When Does Module Code Execute ?
+406. Module Scope & globalThis
+407. Wrap Up
+408. Useful Resources & Links
 
 
 Section 21: Javascript Tooling & Workflows
-408. Module Introduction
-409. Project Limitations & Why We Need Tools
-410. Workflow Overview
-411. Setting Up a npm Package
-412. Working with npm Packages
-413. Linting with ESLint
-414. Configuring ESLint
-415. Importnant: Webpack Version & Configuring npm Scripts
-416. Bundling with Webpack
-417. Bonus: Multiple Entry Points
-418. Development Mode & Fixing "Lazy Loading"
-419. Using webpack-dev-server
-420. Generating Sourcemaps
-421. Building For Production
-422. Final Optimizations
-423. Using Third Party Packages with npm & Webpack
-424. Wrap Up
-425. Useful Resources & Links
+409. Module Introduction
+410. Project Limitations & Why We Need Tools
+411. Workflow Overview
+412. Setting Up a npm Package
+413. Working with npm Packages
+414. Linting with ESLint
+415. Configuring ESLint
+416. Importnant: Webpack Version & Configuring npm Scripts
+417. Bundling with Webpack
+418. Bonus: Multiple Entry Points
+419. Development Mode & Fixing "Lazy Loading"
+420. Using webpack-dev-server
+421. Generating Sourcemaps
+422. Building For Production
+423. Final Optimizations
+424. Using Third Party Packages with npm & Webpack
+425. Wrap Up
+426. Useful Resources & Links
 
 
 Section 22: Utilizing Browser Storage
-426. Module Introduction
-427. Browser Storage Options
-428. localStorage & sessionStorage
-429. Getting Started with Cookies
-430. Working with Cookies
-431. Getting Started with IndexedDB
-432. Working with IndexedDB
-433. Wrap Up
-434. Useful Resources & Links
+427. Module Introduction
+428. Browser Storage Options
+429. localStorage & sessionStorage
+430. Getting Started with Cookies
+431. Working with Cookies
+432. Getting Started with IndexedDB
+433. Working with IndexedDB
+434. Wrap Up
+435. Useful Resources & Links
 
 
 Section 23: JavaScript & Browser Support
-435. Module Introduction
-436. What Is "Browser Support" About ?
-437. Determining Browser Support For a JavaScript Feature
+436. Module Introduction
+437. What Is "Browser Support" About ?
+438. Determining Browser Support For a JavaScript Feature
 438. Determining Required Support
-439. Solution: Feature Detection + Fallback Code
-440. Solution: Using Polyfills
-441. Solution: Transpiling Code
-442. Solution: Improvement: Automatically Detect + Add Polyfills
-443. What about Support Outside of Browsers ?
-444. Browser Support Outside of JavaScript Files
-445. Wrap Up
-446. Useful Resources & Links
+440. Solution: Feature Detection + Fallback Code
+441. Solution: Using Polyfills
+442. Solution: Transpiling Code
+443. Solution: Improvement: Automatically Detect + Add Polyfills
+444. What about Support Outside of Browsers ?
+445. Browser Support Outside of JavaScript Files
+446. Wrap Up
+447. Useful Resources & Links
+
+
+Section 24: Time to Practice: Share My Place App
+448. Module Introduction
+449. Note: Use the LTS Version of NodeJS
+450. Setting Up the Project
+451. Getting DOM access
+452. Getting the User Location
+453. Adding Feedback (Showing a Modal)
+454. Hiding the Modal
+455. Rendering a Map with Google Maps
+456. Continuing withoud a Credit Card
+457. Finding an Address & Getting the Coordinates
+458. Converting User Input to Coordinates
+459. Creating a "Share Place" Link
+460. Copying the Link to the Clipboard
+461. Rendering the "Shared Place" Screen
+462. Useful Resources & Links
+ 
