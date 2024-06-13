@@ -548,3 +548,17 @@ Section 25: Working with JavaScript Frameworks
 467. Wrap Up
 468. Useful Resources & Links
  
+
+Section 26: Working with JavaScript Frameworks
+469. Module Introduction
+470. Understanding Symbols
+471. Well-known Symbols
+472. Understanding Iterators
+473. Generators & Iterable Objects
+474. Generators Summary & Built-in Iterables Examples
+475. The Reflect API
+476. The Proxy API and a First "Trap"
+477. Working with Proxy Traps
+478. Wrap Up
+479. Useful Resources & Links
+ 
