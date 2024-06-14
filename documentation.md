@@ -561,4 +561,27 @@ Section 26: Working with JavaScript Frameworks
 477. Working with Proxy Traps
 478. Wrap Up
 479. Useful Resources & Links
+
+
+Section 27: Node.js: An Introduction
+480. Module Introduction
+481. JavaScript is a Hosted Language
+482. Installation & Basics
+483. Understanding Modules & File Access
+484. Working with Incoming Http Requests
+485. Sending Responses(HTML Data)
+486. Parsing Incoming Data
+487. Introducing & Installing Express.js
+488. Express.js: The Basics
+489. Extracting Data
+490. Rendering Server-side HTML with Templates & EJS
+491. Enhancing Our Project
+492. Adding Basic REST Routes
+493. Understanding CORS (Cross Origin Resource Sharing)
+494. Sending the Location ID to the Frontend
+495. Adding the GET Location Route
+496. Introducing MongoDB (Dababase)
+497. NodeJS Error Handling
+498. Wrap Up
+499. Useful Resources & Links
  
