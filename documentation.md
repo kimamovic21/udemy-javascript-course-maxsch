@@ -585,3 +585,14 @@ Section 27: Node.js: An Introduction
 498. Wrap Up
 499. Useful Resources & Links
  
+
+Section 28: Security
+500. Module Introduction
+501. Security Hole Overview & Exposing Data in you Code
+502. Cross-Site Scriptin Attacks (XSS)
+503. Third-Party Libraries & XSS
+504. CSRF Attacks (Cross Site Request Forgery)
+505. CORS (Cross Origin Resource Sharing)
+506. Wrap Up
+507. Useful Resources & Links
+  
