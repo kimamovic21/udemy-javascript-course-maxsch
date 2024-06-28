@@ -605,3 +605,22 @@ Section 29: Deploying JavaScript Code
 512. Injecting Script Imports Into HTML Automatically
 513. Example: Dynamic Page Deployment (with Server-side Code)
 514. Useful Resources & Links
+
+
+Section 30: Performance & Optimizations
+515. Module Introduction
+516. What is "Performance Optimization" About ?
+517. Optimization Potentials
+518. Measuring Performance
+519. Diving Into The Browser Devtools (for Performance Measuring)
+520. Further Resources
+521. Preparing The Testing Setup
+522. Optimizing Startup Time & Code Usage / Coverage 
+523. Updating The DOM Correctly
+524. Updating Lists Correctly
+525. Optimizing The Small Things
+526. Micro-Optimizations (Think Twice!)
+527. Finding & Fixing Memory Leaks
+528. Server-side Performance Optimizations
+529. Wrap Up
+530. Useful Resources & Links
