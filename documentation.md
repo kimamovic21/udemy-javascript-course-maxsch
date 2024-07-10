@@ -624,3 +624,15 @@ Section 30: Performance & Optimizations
 528. Server-side Performance Optimizations
 529. Wrap Up
 530. Useful Resources & Links
+
+
+Section 31: Introduction to Testing
+531. Module Introduction
+532. What Is Testing? Why Does It Matter ?
+533. Testing Setup
+534. Writing & Running Unit Tests
+535. Writing & Running Integration Tests
+536. Writing & Running e2e Tests
+537. Dealing with Async Code
+538. Working with Mocks
+539. Useful Resources & Links
