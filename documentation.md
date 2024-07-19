@@ -636,3 +636,13 @@ Section 31: Introduction to Testing
 537. Dealing with Async Code
 538. Working with Mocks
 539. Useful Resources & Links
+
+
+Section 32: Bonus: Programming Paradigms (Procedural vs Object Oriented vs Functional)
+540. Module Introduction
+541. What are Programming Paradigms ? 
+542. Procedural Programming in Practice
+543. Object Oriented Programming in Practice
+544. Functional Programming in Practice
+545. Wrap Up
+546. Useful Resources & Links
