@@ -646,3 +646,17 @@ Section 32: Bonus: Programming Paradigms (Procedural vs Object Oriented vs Funct
 544. Functional Programming in Practice
 545. Wrap Up
 546. Useful Resources & Links
+
+
+Section 33: Bonus: Data Structures & Algorithms Introduction
+547. Module Introduction
+548. What are "Data Structures" & "Algorithmgs" ?
+549. A First Example
+550. Solving the Same Problem Differently
+551. Performance & The "Big 0" Notation
+552. More Time Complexities & Comparing Algorithms
+553. More on Big O
+554. More Examples
+555. Diving into Data Structures & Time Complexities
+556. Where to Learn More & Wrap Up
+557. Useful Resources & Links
