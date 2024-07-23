@@ -660,3 +660,16 @@ Section 33: Bonus: Data Structures & Algorithms Introduction
 555. Diving into Data Structures & Time Complexities
 556. Where to Learn More & Wrap Up
 557. Useful Resources & Links
+
+
+Section 33: Bonus: Data Structures & Algorithms Introduction
+558. Module Introduction
+559. What is TypeScript and Why would you use it ?
+560. Working with Types
+561. Core Types & Diving Deeper
+562. Object Types, Array Types & Function Types
+563. Advanced Types (Literal Types, Union Types, Enums)
+564. Classes & Interfaces
+565. Generic Types
+566. Configuring the TypeScript Compiler
+567. Useful Resources & Links
