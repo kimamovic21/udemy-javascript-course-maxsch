@@ -1,4 +1,4 @@
-Section 33: Bonus: Data Structures & Algorithms Introduction
+Section 34: Bonus: Data Structures & Algorithms Introduction
 
 558. Module Introduction
 

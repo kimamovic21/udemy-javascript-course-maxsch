@@ -662,7 +662,7 @@ Section 33: Bonus: Data Structures & Algorithms Introduction
 557. Useful Resources & Links
 
 
-Section 33: Bonus: Data Structures & Algorithms Introduction
+Section 34: Bonus: Data Structures & Algorithms Introduction
 558. Module Introduction
 559. What is TypeScript and Why would you use it ?
 560. Working with Types
@@ -673,3 +673,42 @@ Section 33: Bonus: Data Structures & Algorithms Introduction
 565. Generic Types
 566. Configuring the TypeScript Compiler
 567. Useful Resources & Links
+
+
+Section 35: Bonus: Data Structures & Algorithms Introduction
+568. Module Introduction
+569. Web Components in Action
+570. What are Web Components ?
+571. Why Web Components ?
+572. Getting Started!
+573. Web Component Browser Support
+574. Our Development Setup
+575. A First Custom Element
+576. Interacting with the Surrounding DOM
+577. Understanding the Custom Element Lifecycle
+578. Using "connectedCallback" for DOM Access
+579. Listening to Events Inside the Component
+580. Using Attributes on Custom Elements
+581. Styling our Elements
+582. Working with the "Shadow DOM"
+583. Adding an HTML Template
+584. Using Slots
+585. Defining the Template in Javascript
+586. Using Style Tags in the Shadow DOM
+587. Extending Built-int Elements
+Assignment 8: Time to practice - The Basics
+588. The Next Steps
+589. Understanding Shadow DOM Projection
+590. Styling "slot" Content Outside of the Shadow DOM
+591. Styling "slot" Content Inside of the Shadow DOM
+592. Styling the Host Component
+593. Conditional Host Styling
+594. Styling with the Host Content in Mind
+595. Smart Dynamic Styling with CSS Variables
+596. Cleaning Up the overall Styling
+597. Observing Attribute Changes
+598. Adjusting the Component Behaviour Upon Attribute Changes
+599. Using "disconnectedCallback"
+600. Adding a render() Method
+601. Final Adjustment
+602. The Next Steps
